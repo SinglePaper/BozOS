@@ -47,7 +47,7 @@ try:
         if result >= 0:
             print("Wake word detected!")
             # Call your intent processing function here
-            print(intent.getIntent())
+            intent.getIntent()
 
 except KeyboardInterrupt:
     print("Stopping...")
