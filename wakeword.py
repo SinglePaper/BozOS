@@ -20,7 +20,7 @@ porcupine = pvporcupine.create(access_key=access_key, keyword_paths=[keyword_pat
 pa = pyaudio.PyAudio()
 print("Sampling rate:",porcupine.sample_rate)
 audio_stream = pa.open(
-    rate=porcupine.sample_rate,
+    rate=44100,
     channels=1,
     format=pyaudio.paInt16,
     input=True,
