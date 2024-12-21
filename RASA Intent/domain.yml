@@ -1,4 +1,4 @@
-version: "3.1"
+version: "0.1"
 
 intents:
   - greet
@@ -8,6 +8,14 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - animal_of_the_day
+  - turn_on_device
+  - turn_off_device
+  - toggle_device
+  - adjust_device
+  - up_device
+  - lower_device
+  - query_device_status
 
 responses:
   utter_greet:
