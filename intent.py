@@ -1,7 +1,7 @@
 # https://snips-nlu.readthedocs.io/en/latest/installation.html
 
 def getIntent():
-    listenForCommand()
+    print(listenForCommand())
     print("Intent: WAHOO")
 
 
