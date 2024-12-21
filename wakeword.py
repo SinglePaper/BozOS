@@ -4,6 +4,8 @@ import pyaudio
 import struct
 import numpy as np
 import scipy.signal
+import intent
+import stt
 
 # Replace with your access key
 access_key = r"GJtuxYjiBSMWPSVqtNKwnozW9dWkkps6VTmgROSlRbdljHsMbwlD/w=="
@@ -45,7 +47,7 @@ try:
         if result >= 0:
             print("Wake word detected!")
             # Call your intent processing function here
-            # intent.getIntent()
+            print(intent.getIntent())
 
 except KeyboardInterrupt:
     print("Stopping...")
