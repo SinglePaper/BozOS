@@ -89,3 +89,115 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
+- intent: animal_of_the_day
+  examples: |
+    - what's the animal of the day?
+    - what is the animal of the day?
+    - animal of the day
+    - what's today's animal?
+    - what is today's animal of the day?
+    - what animal is it today?
+    - what is the animal of today?
+    - who is the animal of the day?
+    - what is the animal of the day?
+    - tell me about today's animal
+    - do you have an animal of the day?
+    - what's today's animal?
+    - can you share the animal of the day?
+    - what's the daily animal?
+    - i'd like to hear about today's featured animal
+    - tell me about the animal for today
+    - what animal are we learning about today?
+    - share the animal of the day, please
+    - do you know the animal of the day?
+    - is there a special animal for today?
+    - what's the featured animal of the day?
+    - i'd like to know today's animal of the day
+
+- intent: turn_on_device
+  examples: |
+    - turn on [smart plug](device)
+    - enable [desk lamp](device)
+    - turn on [all the lights](device)
+    - turn on the [living room light](device)
+    - switch on the [kitchen fan](device)
+    - power on the [air conditioner](device)
+    - activate the [bedroom lamp](device)
+    - can you turn on the [heater](device)?
+    - i need the [garden lights](device) on
+    - turn on the lights in the [living room](location)
+
+- intent: turn_off_device
+  examples: |
+    - turn on [smart plug](device)
+    - enable [desk lamp](device)
+    - turn on [all the lights](device)
+    - turn off the [living room light](device)
+    - switch off the [kitchen fan](device)
+    - power down the [air conditioner](device)
+    - deactivate the [bedroom lamp](device)
+    - shut down the [heater](device)
+    - turn off the lights in the [living room](location)
+
+- intent: toggle_device
+  examples: |
+    - toggle the [living room lights](device)
+    - flip the [kitchen fan](device)
+    - switch the [air conditioner](device)
+    - change the state of the [bedroom lamp](device)
+    - can you toggle the [heater](device)?
+    - make the [garden lights](device) switch states
+    - toggle the lights in the [garage](location)
+    - change the status of the [thermostat](device)
+    - flip the [fan](device) in the [bedroom](location)
+    - toggle all the [lights](device)
+    - switch the [lamp](device) to the opposite state
+    - turn the [heater](device) to its alternate state
+    - can you flip the [kitchen light](device)?
+    - change the status of the [fan](device) in the [living room](location)
+    - please toggle the [patio lights](device)
+
+- intent: adjust_device
+  examples: |
+    - set the [thermostat](device) to [72 degrees](value)
+    - adjust the [living room lights](device) to [50% brightness](value)
+    - change the [kitchen fan](device) to [medium speed](value)
+    - update the [heater](device) to [75 degrees](value)
+    - can you set the [bedroom lamp](device) to [dim](value)?
+    - configure the [bedroom temperature](setting) to [68 degrees](value)
+    - make the [garage lights](device) [brighter](value)
+
+- intent: up_device
+  examples: |
+    - increase the [thermostat](device)
+    - turn up the [living room lights](device)
+    - make the [kitchen fan](device) faster
+    - raise the [heater](device) temperature
+    - can you brighten the [bedroom lamp](device)?
+    - boost the [fan](device) speed in the [garage](location)
+    - make the [lights](device) in the [kitchen](location) brighter
+    - increase the temperature of the [thermostat](device) in the [hallway](location)
+    - up the speed of the [ceiling fan](device)
+
+- intent: lower_device
+  examples: |
+    - decrease the [thermostat](device)
+    - turn down the [living room lights](device)
+    - make the [kitchen fan](device) slower
+    - lower the [heater](device) temperature
+    - dim the [bedroom lamp](device)
+    - reduce the [fan](device) speed in the [garage](location)
+    - make the [lights](device) in the [kitchen](location) dimmer
+    - decrease the temperature of the [thermostat](device) in the [hallway](location)
+    - turn down the speed of the [ceiling fan](device)
+
+- intent: query_device_status
+  examples: |
+    - is the [kitchen light](device) on?
+    - what's the status of the [living room thermostat](device)?
+    - is the [heater](device) running?
+    - are the [garden lights](device) off?
+    - is the [air conditioner](device) set to [72 degrees](value)?
+    - what's the brightness of the [bedroom lamp](device)?
+    - is the [fan](device) running in the [kitchen](location)?

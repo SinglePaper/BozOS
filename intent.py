@@ -2,7 +2,7 @@
 
 from rasa.nlu.model import Interpreter
 
-interpreter = Interpreter.load("models/nlu")
+interpreter = Interpreter.load("models/20241218-223527-threaded-mango.tar.gz")
 
 def getIntent():
     command = listenForCommand()
