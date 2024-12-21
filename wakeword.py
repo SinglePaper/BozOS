@@ -27,7 +27,7 @@ audio_stream = pa.open(
     frames_per_buffer=porcupine.frame_length,
     input_device_index=1,
     input_host_api_specific_stream_info={
-        'input_device': 'plughw:Device,0'  # Use pluggable hardware device for automatic resampling
+        'input_device': 'plughw:2,0'  # Use pluggable hardware device for automatic resampling
     }
 )
 
