@@ -1,16 +1,15 @@
-# https://snips-nlu.readthedocs.io/en/latest/installation.html
+from rasa.core.agent import Agent
+import asyncio
 
-from rasa.nlu.model import Interpreter
-
-interpreter = Interpreter.load("models/20241218-223527-threaded-mango.tar.gz")
+agent = Agent.load(model_path='20241218-223527-threaded-mango.tar.gz')
 
 def getIntent():
-    command = listenForCommand()
-    result = interpreter.parse(command)
+    message = listenForMessage()
+    result = asyncio.run(agent.parse_message(message))
     print(result)
 
 
-def listenForCommand():
+def listenForMessage():
     # Record audio while user is talking (test: 10 seconds)
     # Speech to text (vosk)
     # Return speech
