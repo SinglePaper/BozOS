@@ -1,7 +1,7 @@
 from rasa.core.agent import Agent
 import asyncio
 
-agent = Agent.load(model_path='RASA Intent/models/20241218-223527-threaded-mango.tar.gz')
+agent = Agent.load(model_path='RASA Intent/models/nlu-20241221-232155-overcast-moss.tar.gz')
 agent.parse_message("Hi")
 
 def getIntent():
