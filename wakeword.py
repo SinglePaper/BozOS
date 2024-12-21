@@ -8,7 +8,7 @@ import intent
 import stt
 
 # Replace with your access key
-access_key = r""
+access_key = r"GJtuxYjiBSMWPSVqtNKwnozW9dWkkps6VTmgROSlRbdljHsMbwlD/w=="
 
 # Path to the wake word .ppn file
 keyword_path = r"./Wake word detection/Hey-Sprout_en_raspberry-pi_v3_0_0.ppn"
