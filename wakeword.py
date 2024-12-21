@@ -1,11 +1,7 @@
-# .\porcupine_env\Scripts\activate
-# Console for API key and model: https://console.picovoice.ai
-import sounddevice
+import sounddevice as sd
 import pvporcupine
 import pyaudio
 import struct
-import intent
-import stt
 
 # Replace with your access key
 access_key = r"GJtuxYjiBSMWPSVqtNKwnozW9dWkkps6VTmgROSlRbdljHsMbwlD/w=="
@@ -14,33 +10,41 @@ access_key = r"GJtuxYjiBSMWPSVqtNKwnozW9dWkkps6VTmgROSlRbdljHsMbwlD/w=="
 keyword_path = r"./Wake word detection/Hey-Sprout_en_raspberry-pi_v3_0_0.ppn"
 
 # Initialize Porcupine
-porcupine = pvporcupine.create(access_key=access_key, keyword_paths=[keyword_path]) # [keyword_path]
+porcupine = pvporcupine.create(access_key=access_key, keyword_paths=[keyword_path])
 
 # Audio stream setup with automatic resampling
 pa = pyaudio.PyAudio()
-print("Sampling rate:",porcupine.sample_rate)
-audio_stream = pa.open(
-    rate=porcupine.sample_rate,  # Set the actual sampling rate of the microphone
-    channels=1,
-    format=pyaudio.paInt16,
-    input=True,
-    input_device_index=1,
-)
-
-print("Listening for wake word...")
+print("Sampling rate:", porcupine.sample_rate)
 
 try:
+    audio_stream = pa.open(
+        rate=porcupine.sample_rate,
+        channels=1,
+        format=pyaudio.paInt16,
+        input=True,
+        input_device_index=1,  # Verify this index
+    )
+
+    print("Listening for wake word...")
+
     while True:
-        pcm = audio_stream.read(porcupine.frame_length)
+        pcm = audio_stream.read(porcupine.frame_length, exception_on_overflow=False)
         pcm = struct.unpack_from("h" * porcupine.frame_length, pcm)
 
         result = porcupine.process(pcm)
         if result >= 0:
             print("Wake word detected!")
-            intent.getIntent()
+            # Call your intent processing function here
+            # intent.getIntent()
+
 except KeyboardInterrupt:
     print("Stopping...")
+
+except Exception as e:
+    print(f"An error occurred: {e}")
+
 finally:
-    audio_stream.close()
+    if audio_stream:
+        audio_stream.close()
     porcupine.delete()
     pa.terminate()
