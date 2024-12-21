@@ -1,6 +1,6 @@
 # .\porcupine_env\Scripts\activate
 # Console for API key and model: https://console.picovoice.ai
-
+import sounddevice
 import pvporcupine
 import pyaudio
 import struct
