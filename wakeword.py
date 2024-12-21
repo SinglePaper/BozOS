@@ -20,12 +20,12 @@ porcupine = pvporcupine.create(access_key=access_key, keyword_paths=[keyword_pat
 pa = pyaudio.PyAudio()
 print("Sampling rate:",porcupine.sample_rate)
 audio_stream = pa.open(
-    rate=44100,
+    rate=porcupine.sample_rate,
     channels=1,
     format=pyaudio.paInt16,
     input=True,
     frames_per_buffer=porcupine.frame_length,
-    input_device_index=1
+    input_device_index=2
 )
 
 print("Listening for wake word...")
