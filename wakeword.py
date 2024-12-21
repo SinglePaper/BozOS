@@ -25,8 +25,10 @@ audio_stream = pa.open(
     format=pyaudio.paInt16,
     input=True,
     frames_per_buffer=porcupine.frame_length,
-    input_device_index=None,
-    input_host_api_specific_stream_info=pyaudio.paALSA
+    input_device_index=1,
+    input_host_api_specific_stream_info={
+        'input_device': 'plughw:Device,0'  # Use pluggable hardware device for automatic resampling
+    }
 )
 
 print("Listening for wake word...")
