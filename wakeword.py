@@ -26,7 +26,7 @@ audio_stream = pa.open(
     input=True,
     frames_per_buffer=porcupine.frame_length,
     input_device_index=None,
-    input_host_api=pyaudio.paALSA
+    input_host_api_specific_stream_info=pyaudio.paALSA
 )
 
 print("Listening for wake word...")
