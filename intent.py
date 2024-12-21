@@ -19,7 +19,7 @@ def load_agent(model_path):
 model_path = 'RASA Intent/models/nlu-20241221-232155-overcast-moss.tar.gz'
 agent = load_agent(model_path)
 
-agent = Agent.load(model_path='RASA Intent/models/nlu-20241221-232155-overcast-moss.tar.gz')
+# agent = Agent.load(model_path='RASA Intent/models/nlu-20241221-232155-overcast-moss.tar.gz')
 agent.parse_message("Hi")
 
 def getIntent():
