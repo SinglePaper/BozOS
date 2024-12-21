@@ -11,7 +11,7 @@ import stt
 access_key = r"GJtuxYjiBSMWPSVqtNKwnozW9dWkkps6VTmgROSlRbdljHsMbwlD/w=="
 
 # Path to the wake word .ppn file
-keyword_path = r"./Wake word detection\Hey-Sprout_en_raspberry-pi_v3_0_0.ppn"
+keyword_path = r"./Wake word detection/Hey-Sprout_en_raspberry-pi_v3_0_0.ppn"
 
 # Initialize Porcupine
 porcupine = pvporcupine.create(access_key=access_key, keyword_paths=[keyword_path]) # [keyword_path]
@@ -24,6 +24,7 @@ audio_stream = pa.open(
     format=pyaudio.paInt16,
     input=True,
     frames_per_buffer=porcupine.frame_length
+    input_device_index=2
 )
 
 print("Listening for wake word...")
