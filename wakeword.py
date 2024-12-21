@@ -24,7 +24,7 @@ audio_stream = pa.open(
     channels=1,
     format=pyaudio.paInt16,
     input=True,
-    frames_per_buffer=int(41000 * (1/16000)),  # Calculate frames per buffer based on the desired sampling rate
+    frames_per_buffer=int(41000 * (1/porcupine.sample_rate)),  # Calculate frames per buffer based on the desired sampling rate
     input_device_index=1,
     input_host_api_specific_stream_info={
         pyaudio.paPlugIn,
