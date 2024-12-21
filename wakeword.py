@@ -24,7 +24,7 @@ audio_stream = pa.open(
     channels=1,
     format=pyaudio.paInt16,
     input=True,
-    input_device_index=1,
+    input_device_index=2,
 )
 
 print("Listening for wake word...")
