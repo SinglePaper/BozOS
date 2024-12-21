@@ -1,5 +1,23 @@
 from rasa.core.agent import Agent
 import asyncio
+import os
+
+# Function to load the agent from cache or disk
+def load_agent(model_path):
+    # Check if the agent cache exists
+    cache_path = model_path + '.cache'
+    if os.path.exists(cache_path):
+        print("Loading agent from cache...")
+        agent = Agent.load(cache_path)
+    else:
+        print("Loading agent from disk...")
+        agent = Agent.load(model_path)
+        # Serialize and persist the agent for future use
+        agent.persist(cache_path)
+    return agent
+
+model_path = 'RASA Intent/models/nlu-20241221-232155-overcast-moss.tar.gz'
+agent = load_agent(model_path)
 
 agent = Agent.load(model_path='RASA Intent/models/nlu-20241221-232155-overcast-moss.tar.gz')
 agent.parse_message("Hi")
