@@ -7,7 +7,7 @@ agent.parse_message("Hi")
 def getIntent():
     message = listenForMessage()
     result = asyncio.run(agent.parse_message(message))
-    print(result)
+    # print(result)
     print(f"{result["intent"]["name"]} ({result["intent"]["confidence"]})")
     for entity in result["entities"]:
         print(f"{entity["entity"]}: {entity["value"]} ({entity["confidence_entity"]})")
