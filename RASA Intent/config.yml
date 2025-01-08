@@ -8,7 +8,7 @@ pipeline:
   - name: RegexFeaturizer
   - name: LexicalSyntacticFeaturizer
   - name: CountVectorsFeaturizer
-  - name: DIETClassifier
+  - name: SklearnIntentClassifier
     epochs: 50
   - name: EntitySynonymMapper
     epochs: 50
