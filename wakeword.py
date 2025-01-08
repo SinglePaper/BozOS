@@ -4,7 +4,7 @@ import pyaudio
 import struct
 import numpy as np
 import scipy.signal
-import intent
+# import intent
 import stt
 
 # Replace with your access key
