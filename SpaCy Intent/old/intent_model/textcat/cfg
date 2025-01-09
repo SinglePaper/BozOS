@@ -1,0 +1,12 @@
+{
+  "labels":[
+    "animal_of_the_day",
+    "control_lights",
+    "play_music",
+    "set_timer",
+    "ask_information",
+    "casting"
+  ],
+  "threshold":0.0,
+  "positive_label":null
+}

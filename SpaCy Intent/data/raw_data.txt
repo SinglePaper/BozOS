@@ -1,0 +1,137 @@
+set mood light to 15 percent
+turn off mood light
+set mood light to 15 percent
+turn off desk lamp
+Turn on smart plug
+Turn off smart plug
+Turn on coffee maker plug
+Turn off TV plug
+Turn on fan plug
+Turn off heater plug
+Turn on gaming console plug
+Turn off humidifier plug
+Turn on printer plug
+Turn off aquarium plug
+Turn on kitchen light
+Turn off desk lamp
+Turn on living room light
+Turn off bedroom light
+Set mood light to orange
+Set desk lamp to 45 percent
+Set hallway light to 20 percent
+Set dining room light to blue
+Set bathroom light to cool white
+Turn on bedside lamp
+Turn off outdoor light
+Set patio light to warm white
+Set kid’s room light to rainbow mode
+Turn on guest room light
+Turn off office light
+Set kitchen light to 70 percent
+Set living room light to soft yellow
+Turn on reading lamp
+Turn off floor lamp
+Set bedside lamp to 30 percent
+Turn on the living room lights
+Turn off the kitchen smart plug
+Disable the hallway night light
+Set the bedroom lamp to blue
+Set the dining room chandelier to 60 percent
+Dim all the lights in the house
+Turn on the smart plug in the office
+Brighten the bathroom lights
+Turn off the outdoor string lights
+Enable the garage smart plug
+Set the family room lamp to 40 percent
+Turn on the smart plug in the bedroom
+Disable the nursery nightlight
+Set the kitchen under-cabinet lights to 80 percent
+Turn off the living room smart plug
+Turn on the laundry room lights
+Set the home office lamp to 20 percent
+Dim the lights in the master bedroom
+Turn on the smart plug in the living room
+Turn off the hallway smart plug
+Enable the smart plug in the kitchen
+Set the desk lamp to 50 percent
+Turn on the outdoor patio lights
+Disable the automatic smart plug
+Set the kitchen lights to warm white
+Turn off the smart plug in the bedroom
+Turn on the basement lights
+Set the living room lights to cool white
+Dim the lights in the dining room
+Turn on the smart plug in the office
+Turn off the attic smart plug
+Enable the smart plug in the home office
+Set the bathroom lights to 60 percent
+Turn on the smart plug in the kitchen
+Turn off the garage smart plug
+Set the home office lights to 80 percent
+Turn on the smart plug in the living room
+Disable the smart plug in the hallway
+Set the kitchen lights to 40 percent
+Turn off the smart plug in the office
+Turn on the outdoor pathway lights
+Set the living room lights to 20 percent
+Turn off the smart plug in the bedroom
+Enable the smart plug in the nursery
+Set the bedroom lights to 80 percent
+Turn on the smart plug in the kitchen
+Turn off the smart plug in the home office
+Set the dining room lights to 50 percent
+Turn on the smart plug in the living room
+Turn off the smart plug in the basement
+turn on the lights
+turn off smart plug
+set mood light to pumpkin
+Increase the brightness of the living room lights.
+Turn up the volume on the TV.
+Raise the temperature on the thermostat.
+Boost the speed of the ceiling fan.
+Amplify the sound from the smart speaker.
+Add more power to the air purifier.
+Make the desk lamp brighter.
+Turn up the intensity of the kitchen lights.
+Increase the fan speed on the air conditioner.
+Enhance the heating on the space heater.
+Decrease the brightness of the bedroom lights.
+Lower the volume on the soundbar.
+Reduce the temperature on the thermostat.
+Slow down the speed of the ceiling fan.
+Diminish the sound from the smart speaker.
+Cut back on the power of the humidifier.
+Make the floor lamp dimmer.
+Turn down the intensity of the outdoor lights.
+Reduce the fan speed on the air purifier.
+Decrease the cooling of the air conditioner.
+Turn off the bedroom fan.
+Switch off the living room lights.
+Power down the TV.
+Shut down the computer monitor.
+Deactivate the kitchen stove.
+Stop the coffee maker.
+Turn off the gaming console.
+Switch off the bathroom heater.
+Power down the smart thermostat.
+Shut off the robot vacuum.
+Turn on the bedroom fan.
+Switch on the kitchen lights.
+Power up the TV.
+Start the computer monitor.
+Activate the air purifier.
+Turn on the coffee maker.
+Switch on the space heater.
+Power up the outdoor lights.
+Turn on the robot vacuum.
+Switch on the soundbar.
+Set the thermostat to 70 degrees.
+Set the air conditioner to cooling mode.
+Adjust the robot vacuum to quiet mode.
+Configure the smart speaker to night mode.
+Change the smart lights to away mode.
+Set the heater to energy-saving mode.
+Change the living room lights to blue.
+Set the kitchen lights to warm white.
+Adjust the desk lamp to red.
+Turn the outdoor lights to green.

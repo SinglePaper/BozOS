@@ -1,0 +1,1968 @@
+[
+    [
+        "set mood light to 15 percent",
+        {
+            "intent": "SET_DEVICE_STATUS",
+            "entities": [
+                [
+                    4,
+                    14,
+                    "DEVICE"
+                ],
+                [
+                    18,
+                    20,
+                    "STATUS"
+                ]
+            ]
+        }
+    ],
+    [
+        "turn off mood light",
+        {
+            "intent": "TURN_OFF_DEVICE",
+            "entities": [
+                [
+                    9,
+                    19,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "set mood light to 15 percent",
+        {
+            "intent": "SET_DEVICE_STATUS",
+            "entities": [
+                [
+                    4,
+                    14,
+                    "DEVICE"
+                ],
+                [
+                    18,
+                    20,
+                    "STATUS"
+                ]
+            ]
+        }
+    ],
+    [
+        "turn off desk lamp",
+        {
+            "intent": "TURN_OFF_DEVICE",
+            "entities": [
+                [
+                    9,
+                    18,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Turn on smart plug",
+        {
+            "intent": "TURN_ON_DEVICE",
+            "entities": [
+                [
+                    8,
+                    18,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Turn off smart plug",
+        {
+            "intent": "TURN_OFF_DEVICE",
+            "entities": [
+                [
+                    9,
+                    19,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Turn on coffee maker plug",
+        {
+            "intent": "TURN_ON_DEVICE",
+            "entities": [
+                [
+                    8,
+                    25,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Turn off TV plug",
+        {
+            "intent": "TURN_OFF_DEVICE",
+            "entities": [
+                [
+                    9,
+                    16,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Turn on fan plug",
+        {
+            "intent": "TURN_ON_DEVICE",
+            "entities": [
+                [
+                    8,
+                    16,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Turn off heater plug",
+        {
+            "intent": "TURN_OFF_DEVICE",
+            "entities": [
+                [
+                    9,
+                    20,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Turn on gaming console plug",
+        {
+            "intent": "TURN_ON_DEVICE",
+            "entities": [
+                [
+                    8,
+                    27,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Turn off humidifier plug",
+        {
+            "intent": "TURN_OFF_DEVICE",
+            "entities": [
+                [
+                    9,
+                    24,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Turn on printer plug",
+        {
+            "intent": "TURN_ON_DEVICE",
+            "entities": [
+                [
+                    8,
+                    20,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Turn off aquarium plug",
+        {
+            "intent": "TURN_OFF_DEVICE",
+            "entities": [
+                [
+                    9,
+                    22,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Turn on kitchen light",
+        {
+            "intent": "TURN_ON_DEVICE",
+            "entities": [
+                [
+                    8,
+                    21,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Turn off desk lamp",
+        {
+            "intent": "TURN_OFF_DEVICE",
+            "entities": [
+                [
+                    9,
+                    18,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Turn on living room light",
+        {
+            "intent": "TURN_ON_DEVICE",
+            "entities": [
+                [
+                    8,
+                    25,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Turn off bedroom light",
+        {
+            "intent": "TURN_OFF_DEVICE",
+            "entities": [
+                [
+                    9,
+                    22,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Set mood light to orange",
+        {
+            "intent": "SET_DEVICE_COLOR",
+            "entities": [
+                [
+                    4,
+                    14,
+                    "DEVICE"
+                ],
+                [
+                    18,
+                    24,
+                    "COLOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Set desk lamp to 45 percent",
+        {
+            "intent": "SET_DEVICE_STATUS",
+            "entities": [
+                [
+                    4,
+                    13,
+                    "DEVICE"
+                ],
+                [
+                    17,
+                    19,
+                    "STATUS"
+                ]
+            ]
+        }
+    ],
+    [
+        "Set hallway light to 20 percent",
+        {
+            "intent": "SET_DEVICE_STATUS",
+            "entities": [
+                [
+                    4,
+                    17,
+                    "DEVICE"
+                ],
+                [
+                    21,
+                    23,
+                    "STATUS"
+                ]
+            ]
+        }
+    ],
+    [
+        "Set dining room light to blue",
+        {
+            "intent": "4",
+            "entities": [
+                [
+                    4,
+                    21,
+                    "DEVICE"
+                ],
+                [
+                    25,
+                    29,
+                    "COLOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Set bathroom light to cool white",
+        {
+            "intent": "SET_DEVICE_COLOR",
+            "entities": [
+                [
+                    4,
+                    18,
+                    "DEVICE"
+                ],
+                [
+                    22,
+                    32,
+                    "COLOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Turn on bedside lamp",
+        {
+            "intent": "TURN_ON_DEVICE",
+            "entities": [
+                [
+                    8,
+                    20,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Turn off outdoor light",
+        {
+            "intent": "TURN_OFF_DEVICE",
+            "entities": [
+                [
+                    9,
+                    22,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Set patio light to warm white",
+        {
+            "intent": "SET_DEVICE_COLOR",
+            "entities": [
+                [
+                    4,
+                    15,
+                    "DEVICE"
+                ],
+                [
+                    19,
+                    29,
+                    "COLOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Set kid’s room light to rainbow mode",
+        {
+            "intent": "SET_DEVICE_COLOR",
+            "entities": [
+                [
+                    4,
+                    20,
+                    "DEVICE"
+                ],
+                [
+                    24,
+                    36,
+                    "COLOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Turn on guest room light",
+        {
+            "intent": "TURN_ON_DEVICE",
+            "entities": [
+                [
+                    8,
+                    24,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Turn off office light",
+        {
+            "intent": "TURN_OFF_DEVICE",
+            "entities": [
+                [
+                    9,
+                    21,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Set kitchen light to 70 percent",
+        {
+            "intent": "SET_DEVICE_STATUS",
+            "entities": [
+                [
+                    4,
+                    17,
+                    "DEVICE"
+                ],
+                [
+                    21,
+                    23,
+                    "STATUS"
+                ]
+            ]
+        }
+    ],
+    [
+        "Set living room light to soft yellow",
+        {
+            "intent": "SET_DEVICE_COLOR",
+            "entities": [
+                [
+                    4,
+                    21,
+                    "DEVICE"
+                ],
+                [
+                    25,
+                    36,
+                    "COLOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Turn on reading lamp",
+        {
+            "intent": "TURN_ON_DEVICE",
+            "entities": [
+                [
+                    8,
+                    20,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Turn off floor lamp",
+        {
+            "intent": "TURN_OFF_DEVICE",
+            "entities": [
+                [
+                    9,
+                    19,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Set bedside lamp to 30 percent",
+        {
+            "intent": "SET_DEVICE_STATUS",
+            "entities": [
+                [
+                    4,
+                    16,
+                    "DEVICE"
+                ],
+                [
+                    20,
+                    22,
+                    "STATUS"
+                ]
+            ]
+        }
+    ],
+    [
+        "Turn on the living room lights",
+        {
+            "intent": "TURN_ON_DEVICE",
+            "entities": [
+                [
+                    12,
+                    30,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Turn off the kitchen smart plug",
+        {
+            "intent": "TURN_OFF_DEVICE",
+            "entities": [
+                [
+                    13,
+                    31,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Disable the hallway night light",
+        {
+            "intent": "TURN_OFF_DEVICE",
+            "entities": [
+                [
+                    12,
+                    31,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Set the bedroom lamp to blue",
+        {
+            "intent": "SET_DEVICE_COLOR",
+            "entities": [
+                [
+                    8,
+                    20,
+                    "DEVICE"
+                ],
+                [
+                    24,
+                    28,
+                    "COLOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Set the dining room chandelier to 60 percent",
+        {
+            "intent": "SET_DEVICE_STATUS",
+            "entities": [
+                [
+                    8,
+                    30,
+                    "DEVICE"
+                ],
+                [
+                    34,
+                    36,
+                    "STATUS"
+                ]
+            ]
+        }
+    ],
+    [
+        "Dim all the lights in the house",
+        {
+            "intent": "DECREASE_DEVICE",
+            "entities": [
+                [
+                    4,
+                    18,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Turn on the smart plug in the office",
+        {
+            "intent": "TURN_ON_DEVICE",
+            "entities": [
+                [
+                    12,
+                    36,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Brighten the bathroom lights",
+        {
+            "intent": "INCREASE_DEVICE",
+            "entities": [
+                [
+                    13,
+                    28,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Turn off the outdoor string lights",
+        {
+            "intent": "TURN_OFF_DEVICE",
+            "entities": [
+                [
+                    13,
+                    34,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Enable the garage smart plug",
+        {
+            "intent": "TURN_ON_DEVICE",
+            "entities": [
+                [
+                    11,
+                    28,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Set the family room lamp to 40 percent",
+        {
+            "intent": "SET_DEVICE_STATUS",
+            "entities": [
+                [
+                    8,
+                    24,
+                    "DEVICE"
+                ],
+                [
+                    28,
+                    30,
+                    "STATUS"
+                ]
+            ]
+        }
+    ],
+    [
+        "Turn on the smart plug in the bedroom",
+        {
+            "intent": "TURN_ON_DEVICE",
+            "entities": [
+                [
+                    8,
+                    37,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Disable the nursery nightlight",
+        {
+            "intent": "TURN_OFF_DEVICE",
+            "entities": [
+                [
+                    12,
+                    30,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Set the kitchen under-cabinet lights to 80 percent",
+        {
+            "intent": "SET_DEVICE_STATUS",
+            "entities": [
+                [
+                    4,
+                    36,
+                    "DEVICE"
+                ],
+                [
+                    40,
+                    42,
+                    "STATUS"
+                ]
+            ]
+        }
+    ],
+    [
+        "Turn off the living room smart plug",
+        {
+            "intent": "TURN_OFF_DEVICE",
+            "entities": [
+                [
+                    13,
+                    35,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Turn on the laundry room lights",
+        {
+            "intent": "TURN_ON_DEVICE",
+            "entities": [
+                [
+                    12,
+                    31,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Set the home office lamp to 20 percent",
+        {
+            "intent": "SET_DEVICE_STATUS",
+            "entities": [
+                [
+                    8,
+                    24,
+                    "DEVICE"
+                ],
+                [
+                    28,
+                    30,
+                    "STATUS"
+                ]
+            ]
+        }
+    ],
+    [
+        "Dim the lights in the master bedroom",
+        {
+            "intent": "DECREASE_DEVICE",
+            "entities": [
+                [
+                    4,
+                    36,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Turn on the smart plug in the living room",
+        {
+            "intent": "TURN_ON_DEVICE",
+            "entities": [
+                [
+                    8,
+                    41,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Turn off the hallway smart plug",
+        {
+            "intent": "TURN_OFF_DEVICE",
+            "entities": [
+                [
+                    13,
+                    31,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Enable the smart plug in the kitchen",
+        {
+            "intent": "TURN_ON_DEVICE",
+            "entities": [
+                [
+                    11,
+                    36,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Set the desk lamp to 50 percent",
+        {
+            "intent": "SET_DEVICE_STATUS",
+            "entities": [
+                [
+                    8,
+                    17,
+                    "DEVICE"
+                ],
+                [
+                    21,
+                    23,
+                    "STATUS"
+                ]
+            ]
+        }
+    ],
+    [
+        "Turn on the outdoor patio lights",
+        {
+            "intent": "TURN_ON_DEVICE",
+            "entities": [
+                [
+                    12,
+                    32,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Disable the automatic smart plug",
+        {
+            "intent": "TURN_OFF_DEVICE",
+            "entities": [
+                [
+                    12,
+                    32,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Set the kitchen lights to warm white",
+        {
+            "intent": "SET_DEVICE_COLOR",
+            "entities": [
+                [
+                    8,
+                    22,
+                    "DEVICE"
+                ],
+                [
+                    26,
+                    36,
+                    "COLOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Turn off the smart plug in the bedroom",
+        {
+            "intent": "TURN_OFF_DEVICE",
+            "entities": [
+                [
+                    13,
+                    38,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Turn on the basement lights",
+        {
+            "intent": "TURN_ON_DEVICE",
+            "entities": [
+                [
+                    12,
+                    27,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Set the living room lights to cool white",
+        {
+            "intent": "SET_DEVICE_COLOR",
+            "entities": [
+                [
+                    8,
+                    26,
+                    "DEVICE"
+                ],
+                [
+                    30,
+                    40,
+                    "COLOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Dim the lights in the dining room",
+        {
+            "intent": "DECREASE_DEVICE",
+            "entities": [
+                [
+                    8,
+                    33,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Turn on the smart plug in the office",
+        {
+            "intent": "TURN_ON_DEVICE",
+            "entities": [
+                [
+                    12,
+                    36,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Turn off the attic smart plug",
+        {
+            "intent": "TURN_OFF_DEVICE",
+            "entities": [
+                [
+                    13,
+                    29,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Enable the smart plug in the home office",
+        {
+            "intent": "TURN_ON_DEVICE",
+            "entities": [
+                [
+                    7,
+                    40,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Set the bathroom lights to 60 percent",
+        {
+            "intent": "SET_DEVICE_STATUS",
+            "entities": [
+                [
+                    8,
+                    23,
+                    "DEVICE"
+                ],
+                [
+                    27,
+                    29,
+                    "STATUS"
+                ]
+            ]
+        }
+    ],
+    [
+        "Turn on the smart plug in the kitchen",
+        {
+            "intent": "TURN_ON_DEVICE",
+            "entities": [
+                [
+                    8,
+                    37,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Turn off the garage smart plug",
+        {
+            "intent": "TURN_OFF_DEVICE",
+            "entities": [
+                [
+                    13,
+                    30,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Set the home office lights to 80 percent",
+        {
+            "intent": "SET_DEVICE_STATUS",
+            "entities": [
+                [
+                    8,
+                    26,
+                    "DEVICE"
+                ],
+                [
+                    30,
+                    32,
+                    "STATUS"
+                ]
+            ]
+        }
+    ],
+    [
+        "Turn on the smart plug in the living room",
+        {
+            "intent": "TURN_ON_DEVICE",
+            "entities": [
+                [
+                    12,
+                    41,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Disable the smart plug in the hallway",
+        {
+            "intent": "TURN_OFF_DEVICE",
+            "entities": [
+                [
+                    12,
+                    37,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Set the kitchen lights to 40 percent",
+        {
+            "intent": "SET_DEVICE_STATUS",
+            "entities": [
+                [
+                    8,
+                    22,
+                    "DEVICE"
+                ],
+                [
+                    26,
+                    28,
+                    "STATUS"
+                ]
+            ]
+        }
+    ],
+    [
+        "Turn off the smart plug in the office",
+        {
+            "intent": "TURN_OFF_DEVICE",
+            "entities": [
+                [
+                    13,
+                    37,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Turn on the outdoor pathway lights",
+        {
+            "intent": "TURN_ON_DEVICE",
+            "entities": [
+                [
+                    12,
+                    34,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Set the living room lights to 20 percent",
+        {
+            "intent": "SET_DEVICE_STATUS",
+            "entities": [
+                [
+                    8,
+                    26,
+                    "DEVICE"
+                ],
+                [
+                    30,
+                    32,
+                    "STATUS"
+                ]
+            ]
+        }
+    ],
+    [
+        "Turn off the smart plug in the bedroom",
+        {
+            "intent": "TURN_OFF_DEVICE",
+            "entities": [
+                [
+                    13,
+                    38,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Enable the smart plug in the nursery",
+        {
+            "intent": "TURN_ON_DEVICE",
+            "entities": [
+                [
+                    11,
+                    36,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Set the bedroom lights to 80 percent",
+        {
+            "intent": "SET_DEVICE_STATUS",
+            "entities": [
+                [
+                    8,
+                    22,
+                    "DEVICE"
+                ],
+                [
+                    26,
+                    28,
+                    "STATUS"
+                ]
+            ]
+        }
+    ],
+    [
+        "Turn on the smart plug in the kitchen",
+        {
+            "intent": "TURN_ON_DEVICE",
+            "entities": [
+                [
+                    12,
+                    37,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Turn off the smart plug in the home office",
+        {
+            "intent": "TURN_OFF_DEVICE",
+            "entities": [
+                [
+                    13,
+                    42,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Set the dining room lights to 50 percent",
+        {
+            "intent": "SET_DEVICE_STATUS",
+            "entities": [
+                [
+                    8,
+                    26,
+                    "DEVICE"
+                ],
+                [
+                    30,
+                    32,
+                    "STATUS"
+                ]
+            ]
+        }
+    ],
+    [
+        "Turn on the smart plug in the living room",
+        {
+            "intent": "TURN_ON_DEVICE",
+            "entities": [
+                [
+                    12,
+                    41,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Turn off the smart plug in the basement",
+        {
+            "intent": "TURN_OFF_DEVICE",
+            "entities": [
+                [
+                    13,
+                    39,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "turn on the lights",
+        {
+            "intent": "TURN_ON_DEVICE",
+            "entities": [
+                [
+                    8,
+                    18,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "turn off smart plug",
+        {
+            "intent": "TURN_OFF_DEVICE",
+            "entities": [
+                [
+                    9,
+                    19,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "set mood light to pumpkin",
+        {
+            "intent": "SET_DEVICE_COLOR",
+            "entities": [
+                [
+                    4,
+                    14,
+                    "DEVICE"
+                ],
+                [
+                    18,
+                    25,
+                    "COLOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Increase the brightness of the living room lights.",
+        {
+            "intent": "INCREASE_DEVICE",
+            "entities": [
+                [
+                    31,
+                    49,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Turn up the volume on the TV.",
+        {
+            "intent": "INCREASE_DEVICE",
+            "entities": [
+                [
+                    26,
+                    28,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Raise the temperature on the thermostat.",
+        {
+            "intent": "INCREASE_DEVICE",
+            "entities": [
+                [
+                    29,
+                    39,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Boost the speed of the ceiling fan.",
+        {
+            "intent": "INCREASE_DEVICE",
+            "entities": [
+                [
+                    23,
+                    34,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Amplify the sound from the smart speaker.",
+        {
+            "intent": "INCREASE_DEVICE",
+            "entities": [
+                [
+                    27,
+                    40,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Add more power to the air purifier.",
+        {
+            "intent": "INCREASE_DEVICE",
+            "entities": [
+                [
+                    22,
+                    34,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Make the desk lamp brighter.",
+        {
+            "intent": "INCREASE_DEVICE",
+            "entities": [
+                [
+                    9,
+                    18,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Turn up the intensity of the kitchen lights.",
+        {
+            "intent": "INCREASE_DEVICE",
+            "entities": [
+                [
+                    29,
+                    43,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Increase the fan speed on the air conditioner.",
+        {
+            "intent": "INCREASE_DEVICE",
+            "entities": [
+                [
+                    30,
+                    45,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Enhance the heating on the space heater.",
+        {
+            "intent": "INCREASE_DEVICE",
+            "entities": [
+                [
+                    27,
+                    39,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Decrease the brightness of the bedroom lights.",
+        {
+            "intent": "DECREASE_DEVICE",
+            "entities": [
+                [
+                    31,
+                    45,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Lower the volume on the soundbar.",
+        {
+            "intent": "DECREASE_DEVICE",
+            "entities": [
+                [
+                    24,
+                    32,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Reduce the temperature on the thermostat.",
+        {
+            "intent": "DECREASE_DEVICE",
+            "entities": [
+                [
+                    30,
+                    40,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Slow down the speed of the ceiling fan.",
+        {
+            "intent": "DECREASE_DEVICE",
+            "entities": [
+                [
+                    27,
+                    38,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Diminish the sound from the smart speaker.",
+        {
+            "intent": "DECREASE_DEVICE",
+            "entities": [
+                [
+                    28,
+                    41,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Cut back on the power of the humidifier.",
+        {
+            "intent": "DECREASE_DEVICE",
+            "entities": [
+                [
+                    29,
+                    39,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Make the floor lamp dimmer.",
+        {
+            "intent": "DECREASE_DEVICE",
+            "entities": [
+                [
+                    9,
+                    19,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Turn down the intensity of the outdoor lights.",
+        {
+            "intent": "DECREASE_DEVICE",
+            "entities": [
+                [
+                    31,
+                    45,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Reduce the fan speed on the air purifier.",
+        {
+            "intent": "DECREASE_DEVICE",
+            "entities": [
+                [
+                    28,
+                    40,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Decrease the cooling of the air conditioner.",
+        {
+            "intent": "DECREASE_DEVICE",
+            "entities": [
+                [
+                    28,
+                    43,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Turn off the bedroom fan.",
+        {
+            "intent": "TURN_OFF_DEVICE",
+            "entities": [
+                [
+                    13,
+                    24,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Switch off the living room lights.",
+        {
+            "intent": "TURN_OFF_DEVICE",
+            "entities": [
+                [
+                    15,
+                    33,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Power down the TV.",
+        {
+            "intent": "TURN_OFF_DEVICE",
+            "entities": [
+                [
+                    15,
+                    17,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Shut down the computer monitor.",
+        {
+            "intent": "TURN_OFF_DEVICE",
+            "entities": [
+                [
+                    14,
+                    30,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Deactivate the kitchen stove.",
+        {
+            "intent": "TURN_OFF_DEVICE",
+            "entities": [
+                [
+                    15,
+                    28,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Stop the coffee maker.",
+        {
+            "intent": "TURN_OFF_DEVICE",
+            "entities": [
+                [
+                    9,
+                    21,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Turn off the gaming console.",
+        {
+            "intent": "TURN_OFF_DEVICE",
+            "entities": [
+                [
+                    13,
+                    27,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Switch off the bathroom heater.",
+        {
+            "intent": "TURN_OFF_DEVICE",
+            "entities": [
+                [
+                    15,
+                    30,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Power down the smart thermostat.",
+        {
+            "intent": "TURN_OFF_DEVICE",
+            "entities": [
+                [
+                    15,
+                    31,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Shut off the robot vacuum.",
+        {
+            "intent": "TURN_OFF_DEVICE",
+            "entities": [
+                [
+                    13,
+                    25,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Turn on the bedroom fan.",
+        {
+            "intent": "TURN_ON_DEVICE",
+            "entities": [
+                [
+                    12,
+                    23,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Switch on the kitchen lights.",
+        {
+            "intent": "TURN_ON_DEVICE",
+            "entities": [
+                [
+                    14,
+                    28,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Power up the TV.",
+        {
+            "intent": "TURN_ON_DEVICE",
+            "entities": [
+                [
+                    13,
+                    15,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Start the computer monitor.",
+        {
+            "intent": "TURN_ON_DEVICE",
+            "entities": [
+                [
+                    10,
+                    26,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Activate the air purifier.",
+        {
+            "intent": "13",
+            "entities": [
+                [
+                    13,
+                    25,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Turn on the coffee maker.",
+        {
+            "intent": "TURN_ON_DEVICE",
+            "entities": [
+                [
+                    12,
+                    24,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Switch on the space heater.",
+        {
+            "intent": "TURN_ON_DEVICE",
+            "entities": [
+                [
+                    14,
+                    26,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Power up the outdoor lights.",
+        {
+            "intent": "TURN_ON_DEVICE",
+            "entities": [
+                [
+                    13,
+                    27,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Turn on the robot vacuum.",
+        {
+            "intent": "TURN_ON_DEVICE",
+            "entities": [
+                [
+                    12,
+                    24,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Switch on the soundbar.",
+        {
+            "intent": "TURN_ON_DEVICE",
+            "entities": [
+                [
+                    14,
+                    22,
+                    "DEVICE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Set the thermostat to 70 degrees.",
+        {
+            "intent": "SET_DEVICE_STATUS",
+            "entities": [
+                [
+                    8,
+                    18,
+                    "DEVICE"
+                ],
+                [
+                    22,
+                    24,
+                    "STATUS"
+                ]
+            ]
+        }
+    ],
+    [
+        "Set the air conditioner to cooling mode.",
+        {
+            "intent": "SET_DEVICE_STATUS",
+            "entities": [
+                [
+                    8,
+                    23,
+                    "DEVICE"
+                ],
+                [
+                    27,
+                    39,
+                    "STATUS"
+                ]
+            ]
+        }
+    ],
+    [
+        "Adjust the robot vacuum to quiet mode.",
+        {
+            "intent": "SET_DEVICE_STATUS",
+            "entities": [
+                [
+                    11,
+                    23,
+                    "DEVICE"
+                ],
+                [
+                    27,
+                    37,
+                    "STATUS"
+                ]
+            ]
+        }
+    ],
+    [
+        "Configure the smart speaker to night mode.",
+        {
+            "intent": "SET_DEVICE_STATUS",
+            "entities": [
+                [
+                    14,
+                    27,
+                    "DEVICE"
+                ],
+                [
+                    31,
+                    41,
+                    "STATUS"
+                ]
+            ]
+        }
+    ],
+    [
+        "Change the smart lights to away mode.",
+        {
+            "intent": "SET_DEVICE_STATUS",
+            "entities": [
+                [
+                    11,
+                    23,
+                    "DEVICE"
+                ],
+                [
+                    27,
+                    36,
+                    "STATUS"
+                ]
+            ]
+        }
+    ],
+    [
+        "Set the heater to energy-saving mode.",
+        {
+            "intent": "SET_DEVICE_STATUS",
+            "entities": [
+                [
+                    8,
+                    14,
+                    "DEVICE"
+                ],
+                [
+                    18,
+                    36,
+                    "STATUS"
+                ]
+            ]
+        }
+    ],
+    [
+        "Change the living room lights to blue.",
+        {
+            "intent": "SET_DEVICE_COLOR",
+            "entities": [
+                [
+                    11,
+                    29,
+                    "DEVICE"
+                ],
+                [
+                    33,
+                    37,
+                    "COLOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Set the kitchen lights to warm white.",
+        {
+            "intent": "SET_DEVICE_COLOR",
+            "entities": [
+                [
+                    8,
+                    22,
+                    "DEVICE"
+                ],
+                [
+                    26,
+                    36,
+                    "COLOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Adjust the desk lamp to red.",
+        {
+            "intent": "SET_DEVICE_COLOR",
+            "entities": [
+                [
+                    11,
+                    20,
+                    "DEVICE"
+                ],
+                [
+                    24,
+                    27,
+                    "COLOR"
+                ]
+            ]
+        }
+    ],
+    [
+        "Turn the outdoor lights to green.",
+        {
+            "intent": "SET_DEVICE_COLOR",
+            "entities": [
+                [
+                    9,
+                    23,
+                    "DEVICE"
+                ],
+                [
+                    27,
+                    32,
+                    "COLOR"
+                ]
+            ]
+        }
+    ]
+]

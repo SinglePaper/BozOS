@@ -1,0 +1,223 @@
+{
+    "rasa_nlu_data": {
+      "common_examples": [
+        {
+          "intent": "animal_of_the_day",
+          "text": "what's the animal of the day?",
+          "entities": []
+        },
+        {
+          "intent": "animal_of_the_day",
+          "text": "what is the animal of the day?",
+          "entities": []
+        },
+        {
+          "intent": "animal_of_the_day",
+          "text": "animal of the day",
+          "entities": []
+        },
+        {
+          "intent": "animal_of_the_day",
+          "text": "what's today's animal?",
+          "entities": []
+        },
+        {
+          "intent": "animal_of_the_day",
+          "text": "can you share the animal of the day?",
+          "entities": []
+        },
+        {
+          "intent": "turn_on_device",
+          "text": "turn on the smart plug",
+          "entities": [
+            {
+              "start": 10,
+              "end": 21,
+              "value": "smart plug",
+              "entity": "device"
+            }
+          ]
+        },
+        {
+          "intent": "turn_on_device",
+          "text": "turn on the lights in the living room",
+          "entities": [
+            {
+              "start": 10,
+              "end": 15,
+              "value": "lights",
+              "entity": "device"
+            },
+            {
+              "start": 29,
+              "end": 42,
+              "value": "living room",
+              "entity": "location"
+            }
+          ]
+        },
+        {
+          "intent": "turn_off_device",
+          "text": "turn off the kitchen fan",
+          "entities": [
+            {
+              "start": 10,
+              "end": 26,
+              "value": "kitchen fan",
+              "entity": "device"
+            }
+          ]
+        },
+        {
+          "intent": "turn_off_device",
+          "text": "turn off the lights in the living room",
+          "entities": [
+            {
+              "start": 10,
+              "end": 15,
+              "value": "lights",
+              "entity": "device"
+            },
+            {
+              "start": 29,
+              "end": 42,
+              "value": "living room",
+              "entity": "location"
+            }
+          ]
+        },
+        {
+          "intent": "toggle_device",
+          "text": "toggle the living room lights",
+          "entities": [
+            {
+              "start": 10,
+              "end": 31,
+              "value": "living room lights",
+              "entity": "device"
+            }
+          ]
+        },
+        {
+          "intent": "toggle_device",
+          "text": "flip the kitchen fan",
+          "entities": [
+            {
+              "start": 10,
+              "end": 23,
+              "value": "kitchen fan",
+              "entity": "device"
+            }
+          ]
+        },
+        {
+          "intent": "adjust_device",
+          "text": "set the thermostat to 72 degrees",
+          "entities": [
+            {
+              "start": 10,
+              "end": 20,
+              "value": "thermostat",
+              "entity": "device"
+            },
+            {
+              "start": 24,
+              "end": 34,
+              "value": "72 degrees",
+              "entity": "value"
+            }
+          ]
+        },
+        {
+          "intent": "adjust_device",
+          "text": "adjust the living room lights to 50 percent brightness",
+          "entities": [
+            {
+              "start": 10,
+              "end": 31,
+              "value": "living room lights",
+              "entity": "device"
+            },
+            {
+              "start": 35,
+              "end": 56,
+              "value": "50 percent brightness",
+              "entity": "value"
+            }
+          ]
+        },
+        {
+          "intent": "up_device",
+          "text": "increase the thermostat",
+          "entities": [
+            {
+              "start": 10,
+              "end": 21,
+              "value": "thermostat",
+              "entity": "device"
+            }
+          ]
+        },
+        {
+          "intent": "up_device",
+          "text": "brighten the bedroom lamp",
+          "entities": [
+            {
+              "start": 10,
+              "end": 26,
+              "value": "bedroom lamp",
+              "entity": "device"
+            }
+          ]
+        },
+        {
+          "intent": "lower_device",
+          "text": "lower the heater",
+          "entities": [
+            {
+              "start": 10,
+              "end": 16,
+              "value": "heater",
+              "entity": "device"
+            }
+          ]
+        },
+        {
+          "intent": "lower_device",
+          "text": "dim the kitchen light",
+          "entities": [
+            {
+              "start": 10,
+              "end": 26,
+              "value": "kitchen light",
+              "entity": "device"
+            }
+          ]
+        },
+        {
+          "intent": "query_device_status",
+          "text": "is the kitchen light on?",
+          "entities": [
+            {
+              "start": 3,
+              "end": 18,
+              "value": "kitchen light",
+              "entity": "device"
+            }
+          ]
+        },
+        {
+          "intent": "query_device_status",
+          "text": "what's the status of the air conditioner?",
+          "entities": [
+            {
+              "start": 26,
+              "end": 42,
+              "value": "air conditioner",
+              "entity": "device"
+            }
+          ]
+        }
+      ]
+    }
+  }

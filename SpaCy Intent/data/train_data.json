@@ -1,0 +1,70 @@
+[
+    [
+        "Turn on the smart plug",
+        {
+            "entities": [
+                [
+                    12,
+                    22,
+                    "DEVICE"
+                ],
+                [
+                    5,
+                    7,
+                    "VALUE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Turn off the smart plug",
+        {
+            "entities": [
+                [
+                    13,
+                    23,
+                    "DEVICE"
+                ],
+                [
+                    5,
+                    8,
+                    "VALUE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Set mood light to 35 percent",
+        {
+            "entities": [
+                [
+                    4,
+                    14,
+                    "DEVICE"
+                ],
+                [
+                    18,
+                    20,
+                    "VALUE"
+                ]
+            ]
+        }
+    ],
+    [
+        "Disable the smart plug",
+        {
+            "entities": [
+                [
+                    12,
+                    22,
+                    "DEVICE"
+                ],
+                [
+                    0,
+                    7,
+                    "VALUE"
+                ]
+            ]
+        }
+    ]
+]
