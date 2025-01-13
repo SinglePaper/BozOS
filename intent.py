@@ -6,5 +6,9 @@ doc = trained("Set sky to 40 percent")
 for ent in doc.ents:
     print(ent.text, ent.label_)
 
-# Save the trained model to disk
-trained.to_disk("sprout_ner")
+def getIntent():
+    prompt = input("Prompt: ")
+    doc = trained(prompt)
+    print("\nDetected Parameters\n=================")
+    for ent in doc.ents:
+        print(ent.text, ent.label_)
