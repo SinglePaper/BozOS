@@ -1,0 +1,33 @@
+{
+  "labels":[
+    "TOSS_COIN",
+    "SET_DEVICE_COLOR",
+    "RESUME_MUSIC",
+    "SET_VOLUME",
+    "ANIMAL_OF_THE_DAY",
+    "CALCULATOR",
+    "TURN_OFF_DEVICE",
+    "SET_DEVICE_STATUS",
+    "WEATHER",
+    "WIKIPEDIA_RANDOM",
+    "SHUFFLE_SONGS",
+    "TELL_JOKE",
+    "PLAY_SEARCH",
+    "ROLL_DICE",
+    "TURN_ON_DEVICE",
+    "VOLUME_DOWN",
+    "VOLUME_UP",
+    "NEXT_SONG",
+    "PLAY_LIKED",
+    "TALK_ABOUT_SELF",
+    "PLAY_MUSIC",
+    "DECREASE_DEVICE",
+    "PAUSE_MUSIC",
+    "INCREASE_DEVICE",
+    "PREV_SONG",
+    "UNIT_CONVERSION",
+    "WIKIPEDIA"
+  ],
+  "threshold":0.0,
+  "positive_label":null
+}
