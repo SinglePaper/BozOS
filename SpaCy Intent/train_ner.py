@@ -42,7 +42,7 @@ train_data = load_data("data/annotated_data.json")
 random.shuffle(train_data)
 
 # Train the model
-trained = train_spacy(train_data, 25)
+trained = train_spacy(train_data, 50)
 
 # Test the trained model
 doc = trained("Set ceiling to 5 percent")
