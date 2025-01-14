@@ -31,7 +31,7 @@ try:
         input_device_index=1,  # Verify this index
     )
 
-    print(f"Launched in {launch_time-datetime.datetime.now()}")
+    print(f"Launched in {datetime.datetime.now()-launch_time}")
 
     print("Listening for wake word...")
 
