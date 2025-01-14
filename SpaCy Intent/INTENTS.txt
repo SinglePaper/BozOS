@@ -16,7 +16,44 @@
 
 
 
-
+- Animal of the Day
+	- ANIMAL_OF_THE_DAY
+- Wikipedia (info lookup)
+	- WIKIPEDIA
+	- WIKIPEDIA_RANDOM
+- Spotify Control
+	- PAUSE_MUSIC
+	- RESUME_MUSIC
+	- PLAY_MUSIC
+	- VOLUME_UP
+	- VOLUME_DOWN
+	- SET_VOLUME
+		- VALUE
+	- NEXT_SONG
+	- PREV_SONG
+	- PLAY_SEARCH
+		- QUERY
+	- PLAY_LIKED
+	- SHUFFLE_SONGS
+	- PLAY_DISCOVER
+- Weather
+	- WEATHER
+		- Optional: LOCATION
+		- Optional: TIME
+- Chance
+	- TOSS_COIN
+	- ROLL_DICE
+		- Type of Die (D4, D6, D8, D10, D12, D20)
+- Calculator
+	- CALCULATOR
+		- CALCULATION
+	- UNIT_CONVERSION
+		- VALUE
+		- ORIGIN_UNIT
+		- TARGET_UNIT
+- Personality
+	- TALK_ABOUT_SELF
+	- TELL_JOKE
 - Control smart plug/lights
 	- INCREASE_DEVICE
 		- DEVICE

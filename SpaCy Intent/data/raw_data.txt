@@ -1,137 +1,137 @@
-set mood light to 15 percent
-turn off mood light
-set mood light to 15 percent
-turn off desk lamp
-Turn on smart plug
-Turn off smart plug
-Turn on coffee maker plug
-Turn off TV plug
-Turn on fan plug
-Turn off heater plug
-Turn on gaming console plug
-Turn off humidifier plug
-Turn on printer plug
-Turn off aquarium plug
-Turn on kitchen light
-Turn off desk lamp
-Turn on living room light
-Turn off bedroom light
-Set mood light to orange
-Set desk lamp to 45 percent
-Set hallway light to 20 percent
-Set dining room light to blue
-Set bathroom light to cool white
-Turn on bedside lamp
-Turn off outdoor light
-Set patio light to warm white
-Set kid’s room light to rainbow mode
-Turn on guest room light
-Turn off office light
-Set kitchen light to 70 percent
-Set living room light to soft yellow
-Turn on reading lamp
-Turn off floor lamp
-Set bedside lamp to 30 percent
-Turn on the living room lights
-Turn off the kitchen smart plug
-Disable the hallway night light
-Set the bedroom lamp to blue
-Set the dining room chandelier to 60 percent
-Dim all the lights in the house
-Turn on the smart plug in the office
-Brighten the bathroom lights
-Turn off the outdoor string lights
-Enable the garage smart plug
-Set the family room lamp to 40 percent
-Turn on the smart plug in the bedroom
-Disable the nursery nightlight
-Set the kitchen under-cabinet lights to 80 percent
-Turn off the living room smart plug
-Turn on the laundry room lights
-Set the home office lamp to 20 percent
-Dim the lights in the master bedroom
-Turn on the smart plug in the living room
-Turn off the hallway smart plug
-Enable the smart plug in the kitchen
-Set the desk lamp to 50 percent
-Turn on the outdoor patio lights
-Disable the automatic smart plug
-Set the kitchen lights to warm white
-Turn off the smart plug in the bedroom
-Turn on the basement lights
-Set the living room lights to cool white
-Dim the lights in the dining room
-Turn on the smart plug in the office
-Turn off the attic smart plug
-Enable the smart plug in the home office
-Set the bathroom lights to 60 percent
-Turn on the smart plug in the kitchen
-Turn off the garage smart plug
-Set the home office lights to 80 percent
-Turn on the smart plug in the living room
-Disable the smart plug in the hallway
-Set the kitchen lights to 40 percent
-Turn off the smart plug in the office
-Turn on the outdoor pathway lights
-Set the living room lights to 20 percent
-Turn off the smart plug in the bedroom
-Enable the smart plug in the nursery
-Set the bedroom lights to 80 percent
-Turn on the smart plug in the kitchen
-Turn off the smart plug in the home office
-Set the dining room lights to 50 percent
-Turn on the smart plug in the living room
-Turn off the smart plug in the basement
-turn on the lights
-turn off smart plug
-set mood light to pumpkin
-Increase the brightness of the living room lights.
-Turn up the volume on the TV.
-Raise the temperature on the thermostat.
-Boost the speed of the ceiling fan.
-Amplify the sound from the smart speaker.
-Add more power to the air purifier.
-Make the desk lamp brighter.
-Turn up the intensity of the kitchen lights.
-Increase the fan speed on the air conditioner.
-Enhance the heating on the space heater.
-Decrease the brightness of the bedroom lights.
-Lower the volume on the soundbar.
-Reduce the temperature on the thermostat.
-Slow down the speed of the ceiling fan.
-Diminish the sound from the smart speaker.
-Cut back on the power of the humidifier.
-Make the floor lamp dimmer.
-Turn down the intensity of the outdoor lights.
-Reduce the fan speed on the air purifier.
-Decrease the cooling of the air conditioner.
-Turn off the bedroom fan.
-Switch off the living room lights.
-Power down the TV.
-Shut down the computer monitor.
-Deactivate the kitchen stove.
-Stop the coffee maker.
-Turn off the gaming console.
-Switch off the bathroom heater.
-Power down the smart thermostat.
-Shut off the robot vacuum.
-Turn on the bedroom fan.
-Switch on the kitchen lights.
-Power up the TV.
-Start the computer monitor.
-Activate the air purifier.
-Turn on the coffee maker.
-Switch on the space heater.
-Power up the outdoor lights.
-Turn on the robot vacuum.
-Switch on the soundbar.
-Set the thermostat to 70 degrees.
-Set the air conditioner to cooling mode.
-Adjust the robot vacuum to quiet mode.
-Configure the smart speaker to night mode.
-Change the smart lights to away mode.
-Set the heater to energy-saving mode.
-Change the living room lights to blue.
-Set the kitchen lights to warm white.
-Adjust the desk lamp to red.
-Turn the outdoor lights to green.
+What is the animal of the day?
+Show me the animal of the day.
+Tell me about the animal of the day.
+Give me facts about the animal of the day.
+What is today's animal of the day?
+Describe the animal of the day.
+I want to learn about the animal of the day.
+What can you tell me about the animal of the day?
+Show me images of the animal of the day.
+What is the significance of the animal of the day?
+Give me a fun fact about the animal of the day.
+What habitat does the animal of the day live in?
+Tell me the diet of the animal of the day.
+What are the characteristics of the animal of the day?
+Is the animal of the day endangered?
+Pause the music.
+Resume the music.
+Play the music.
+Increase the volume.
+Decrease the volume.
+Set the volume to 50 percent.
+Skip to the next song.
+Go back to the previous song.
+Play a song by Taylor Swift.
+Search for "Chill Vibes" on Spotify.
+Play my favorite playlist.
+Shuffle the playlist.
+Play the top hits of the week.
+Set the volume to 30 percent.
+Play the song "Shape of You."
+What’s the weather like today?
+Check the weather for New York City.
+What’s the forecast for tomorrow?
+Is it going to rain in London?
+Tell me the temperature in Los Angeles.
+What’s the weather in Paris right now?
+Will it be sunny in Miami this weekend?
+Get the weather report for Tokyo.
+How cold is it in Chicago?
+What’s the humidity level in San Francisco?
+Is there a storm warning in Seattle?
+What’s the UV index today?
+Check the weather for my location.
+Will it snow in Denver this week?
+What’s the air quality like in Beijing?
+Toss a coin.
+Roll a six-sided die.
+Roll a D6 die.
+Roll a ten-sided die.
+Roll a D10.
+Flip a coin for heads or tails.
+Flip a coin
+Roll the dice and tell me the result.
+Toss a coin and see what you get.
+Roll a twenty-sided die.
+What did you get when you rolled the dice?
+Flip a coin and let me know the outcome.
+Roll a die and give me the number.
+Toss a coin to decide.
+Roll a die and see if it's even or odd.
+Flip a coin to make a choice.
+Roll a die.
+Roll a D20.
+Toss a coin and see if it lands on heads.
+Calculate 25 plus 30.
+What is 15 times 4?
+Divide 100 by 5.
+What is the square root of 64?
+Convert 10 kilometers to miles.
+Calculate the area of a circle with a radius of 5.
+What is 150 minus 75?
+Multiply 12 by 11.
+Convert 100 degrees Celsius to Fahrenheit.
+What is 45 divided by 9?
+What is 3 to the power of 4?
+Convert 5 liters to gallons.
+What is the sum of 100 and 250?
+Calculate the average of 10, 20, and 30.
+Talk about yourself.
+Tell a joke.
+Share something about yourself.
+Describe yourself.
+Talk about your interests.
+Share a personal experience.
+Talk about your favorite things.
+Tell a light-hearted joke.
+Describe your personality.
+Share a humorous anecdote.
+Talk about your background.
+Tell a pun.
+Share a quirky fact about yourself.
+Describe a funny moment.
+What is the capital of France?
+Can you find information about the Great Barrier Reef?
+Look up the history of the Roman Empire.
+What are the main causes of climate change?
+Find out who invented the telephone.
+What does Wikipedia say about the theory of relativity?
+Search for the biography of Marie Curie.
+Get details on the process of photosynthesis.
+What is the significance of the Magna Carta?
+Look up the latest information on COVID-19.
+What are the symptoms of the flu?
+Find out about the life cycle of a butterfly.
+What is the definition of "artificial intelligence"?
+Search for the top ten tallest buildings in the world.
+What can you tell me about the history of jazz music?
+Pick a random Wikipedia article and tell me about it.
+Find a random article on Wikipedia and summarize it.
+Choose a random topic from Wikipedia to discuss.
+What’s a random Wikipedia article you can share?
+Select a random Wikipedia entry and give me the details.
+Tell me about a random article from Wikipedia.
+Find a random subject on Wikipedia and explain it.
+What’s an interesting random Wikipedia article?
+Pick a random Wikipedia page and shar
+Pick a random Wikipedia article and tell me about it.
+Find a random article on Wikipedia and summarize it.
+Choose a random topic from Wikipedia to discuss.
+What’s a random Wikipedia article you can share?
+Select a random Wikipedia entry and give me the details.
+Tell me about a random article from Wikipedia.
+Find a random subject on Wikipedia and explain it.
+What’s an interesting random Wikipedia article?
+Pick a random Wikipedia page and share the highlights.
+Choose a random topic from Wikipedia and tell me more.
+What random article did you find on Wikipedia?
+Summarize a random Wikipedia entry for me.
+Share the information from a random Wikipedia article.
+What’s a random fact from a Wikipedia article?
+Pick a random Wikipedia topic and discuss its significance.
+Choose a random topic from Wikipedia and tell me more.
+What random article did you find on Wikipedia?
+Summarize a random Wikipedia entry for me.
+Share the information from a random Wikipedia article.
+What’s a random fact from a Wikipedia article?
+Pick a random Wikipedia topic and discuss its significance.

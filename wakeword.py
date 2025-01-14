@@ -1,3 +1,5 @@
+import datetime
+launch_time = datetime.datetime.now()
 import sounddevice as sd
 import pvporcupine
 import pyaudio
@@ -28,6 +30,8 @@ try:
         input=True,
         input_device_index=1,  # Verify this index
     )
+
+    print(f"Launched in {launch_time-datetime.datetime.now()}")
 
     print("Listening for wake word...")
 
