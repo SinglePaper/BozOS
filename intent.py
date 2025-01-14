@@ -17,7 +17,7 @@ for ent in doc.ents:
 def getIntent():
     prompt = input("Prompt: ")
 
-    doc = textcat(input("Input: "))    
+    doc = textcat(prompt)    
     print("\nDetected Intent\n=================")
     print(dict((k, v) for k, v in doc.cats.items() if v >= conf_value))
 
