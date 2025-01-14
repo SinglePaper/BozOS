@@ -19,6 +19,19 @@ def train_spacy(train_data, iterations):
     ner.add_label("DEVICE")
     ner.add_label("STATUS")
     ner.add_label("COLOR")
+    ner.add_label("VALUE")
+    ner.add_label("QUERY")
+    ner.add_label("LOCATION")
+    ner.add_label("TIME")
+    ner.add_label("D4")
+    ner.add_label("D6")
+    ner.add_label("D8")
+    ner.add_label("D10")
+    ner.add_label("D12")
+    ner.add_label("D20")
+    ner.add_label("CALCULATION")
+    ner.add_label("ORIGIN_UNIT")
+    ner.add_label("TARGET_UNIT")
 
     # Start the training process
     optimizer = nlp.begin_training()
@@ -42,7 +55,7 @@ train_data = load_data("data/annotated_data.json")
 random.shuffle(train_data)
 
 # Train the model
-trained = train_spacy(train_data, 50)
+trained = train_spacy(train_data, 100)
 
 # Test the trained model
 doc = trained("Set ceiling to 5 percent")
